@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Short Grass
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This is a very small mod doing only one thing. This mod makes grass shorter, and less obstructive. It becomes both easier to swing through when trying to kill chickens for example, and also looks cleaner
