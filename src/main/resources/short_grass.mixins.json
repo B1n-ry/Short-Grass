@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.b1n_ry.short_grass.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BlocksMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
