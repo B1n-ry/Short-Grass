@@ -18,7 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
+      "com.b1n_ry.short_grass.ShortGrass"
     ]
   },
   "mixins": [
@@ -26,11 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
-    "minecraft": "1.19.x",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.x",
+    "java": ">=17",
+    "fabric-api": "*"
   }
 }
