@@ -11,8 +11,10 @@ public class ShortGrass implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
-            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(MOD_ID, "shorter_grass"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
-        });
+        FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer ->
+                ResourceManagerHelper.registerBuiltinResourcePack(
+                        Identifier.of(MOD_ID, "shorter_grass"),
+                        modContainer,
+                        ResourcePackActivationType.ALWAYS_ENABLED));
     }
 }
